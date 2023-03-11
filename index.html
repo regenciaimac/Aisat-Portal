@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="CSS/login.css" rel="stylesheet">
+        <link rel="icon" href="RESO/aisat.png">
+        <title>AISAT COLLEGE</title>
+    </head>
+    <body>
+        <div class="login-section">
+            <div class="formbox login">
+                <form action="">
+                    <h2>SIGN IN</h2>
+                    <div class="input-box">                  
+                        <span class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <input type="email" id="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">                  
+                        <span class="icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </span>
+                        <input type="password" id="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="remmeber-password">
+                        <label for=""><input type="checkbox" name="" id="">Remember Me</label>
+                        <a href="#">Forget password</a>
+                    </div>
+                    <a href="HTML/studportal.html">
+                    <button type="submit"  class="btn">Login</a></button>
+
+                    <div class="create-account">
+                        <p>Create an Account? <a href="#" class="register-link"> Sign Up</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="formbox register">
+                <form action="">
+                    <h2>sign up</h2>
+                    <div class="input-box">                  
+                        <span class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">                  
+                        <span class="icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </span>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="input-box">                  
+                        <span class="icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </span>
+                        <input type="password" required>
+                        <label for="">Confirm Password</label>
+                    </div>
+                    <button class="btn">Sign up</button>
+                    <div class="create-account">
+                        <p>Already have an Account? <a href="#" class="login-link"> Sign in</a></p>
+                    </div>
+                </form>
+        </div>
+
+        <script src="https://kit.fontawesome.com/e7dc0cb40e.js" crossorigin="anonymous"></script>
+        
+        <script src="../JS/login.js"></script> 
+    </body>
+</html>
