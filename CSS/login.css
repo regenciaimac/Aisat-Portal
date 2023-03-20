@@ -110,6 +110,7 @@ body{
     color: white;
     background: orange;
     box-shadow: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
 }
 .create-account{
     font-size: 14.5px;
